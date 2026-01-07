@@ -1,18 +1,15 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'Waleed Ahmed',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Waleed Ahmed',
-  role: 'Software Engineer',
+  role: 'Full-Stack & Mobile App Developer',
   picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
-
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Building high-quality web and mobile applications with React, React Native, Flutter, and Kotlin. Experienced in integrating REST APIs, real-time data handling, and developing scalable software solutions for restaurants, e-commerce platforms, and IoT-based systems.',
+  resume: 'https://example.com', // replace with your real resume link
   social: {
     linkedin: 'https://linkedin.com',
     github: 'https://github.com',
@@ -20,56 +17,70 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'eGaming Marketplace',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A platform for buying and selling eGaming accounts. Users can post account listings with images and videos, authenticate securely, and handle payments seamlessly.',
+    stack: ['MERN', 'Node.js', 'Express', 'MongoDB', 'React', 'CSS'],
+    sourceCode: 'https://github.com/yourusername/egaming-marketplace',
+    livePreview: 'https://yourprojectlive.com',
     image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
   },
   {
-    name: 'Project 3',
+    name: 'Truck Fuel Tracker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A Flutter app for managing truck fuel usage and delivery expenses. Features include expense logging, fuel tracking, report generation, and export to Excel/PDF.',
+    stack: ['Flutter', 'Dart', 'Hive', 'Sqflite', 'Material 3'],
+    sourceCode: 'https://github.com/yourusername/truck-fuel-tracker',
+    livePreview: 'https://play.google.com/store/apps/details?id=truckfueltracker',
+    image: 'cleanfolio.png',
+  },
+  {
+    name: 'ECG Detector System',
+    description:
+      'Real-time ECG monitoring system using ESP32-S and AD8232 sensor. Captures heart signals, processes them, and displays ECG graphs on mobile and web dashboards.',
+    stack: ['ESP32', 'Arduino', 'Flutter', 'Python', 'Bluetooth BLE'],
+    sourceCode: 'https://github.com/yourusername/ecg-detector',
+    livePreview: 'https://yourprojectlive.com/ecg',
+  },
+  {
+    name: 'Lizard Breeding Tracker',
+    description:
+      'A cross-platform mobile app to manage lizard breeding, track breeding cycles, and store health logs. Integrated secure authentication and intuitive UX.',
+    stack: ['React Native', 'Firebase', 'Redux', 'Node.js'],
+    sourceCode: 'https://github.com/yourusername/lizard-breeding-app',
+    livePreview: 'https://play.google.com/store/apps/details?id=lizardbreeding',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
+  'React Native',
+  'Flutter',
   'Redux',
+  'Node.js',
+  'Express',
+  'MongoDB',
+  'SQL',
+  'Kotlin',
   'SASS',
   'Material UI',
   'Git',
   'CI/CD',
   'Jest',
   'Enzyme',
+  'BLE Communication',
+  'IoT Development',
+  'Firebase',
+  'Python',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'waleed.mtech@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
