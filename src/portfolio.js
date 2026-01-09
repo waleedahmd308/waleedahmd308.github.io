@@ -17,15 +17,15 @@ const about = {
 }
 
 const projects = [
-  {
-    name: 'E-Gaming Marketplace',
-    description:
-      'A platform for buying and selling eGaming accounts. Users can post account listings with images and videos, authenticate securely, and handle payments seamlessly.',
-    stack: ['MERN', 'Node.js', 'Express', 'MongoDB', 'React', 'CSS'],
-    sourceCode: 'https://github.com/yourusername/egaming-marketplace',
-    livePreview: 'https://yourprojectlive.com',
-    image: 'gamway.png',
-  },
+ {
+  "name": "E-Gaming Marketplace",
+  "description": "A secure and user-friendly platform for buying and selling eGaming accounts. Users can create listings with images and videos, authenticate safely, and handle payments seamlessly. Built with a TypeScript-enhanced MERN stack for scalability and maintainability.",
+  "stack": ["MERN", "Node.js", "Express", "MongoDB", "React", "TypeScript", "CSS"],
+  "sourceCode": "https://github.com/yourusername/egaming-marketplace",
+  "livePreview": "https://yourprojectlive.com",
+  "image": "gamway.png"
+}
+
   // {
   //   name: 'Truck Fuel Tracker',
   //   description:
