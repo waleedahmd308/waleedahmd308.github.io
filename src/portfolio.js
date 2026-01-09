@@ -24,7 +24,7 @@ const projects = [
   "sourceCode": "https://github.com/yourusername/egaming-marketplace",
   "livePreview": "https://yourprojectlive.com",
   "image": "gamway.png"
-}
+},
 
   // {
   //   name: 'Truck Fuel Tracker',
@@ -61,6 +61,15 @@ const projects = [
     livePreview: 'https://play.google.com/store/apps/details?id=lizardbreeding',
     image: 'LizardBreed.png',
   },
+  {
+  "name": "Plantake — Full-Stack Web Application",
+  "description": "Built a full-stack web application using TypeScript, React, Node.js, Express, and MongoDB with clean, composable architecture. Implemented RESTful APIs, authentication, and state management for scalable client–server communication. Optimized performance with database indexing, efficient queries, and Dockerized deployment with CI/CD pipelines.",
+  "stack": ["TypeScript", "React", "Node.js", "Express", "Docker", "Git"],
+  "sourceCode": "https://github.com/yourusername/plantake",
+  "livePreview": "https://plantake.com/",
+  "image": null
+}
+
 ]
 
 const skills = [
