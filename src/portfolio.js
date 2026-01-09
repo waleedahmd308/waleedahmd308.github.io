@@ -18,38 +18,48 @@ const about = {
 
 const projects = [
   {
-    name: 'eGaming Marketplace',
+    name: 'E-Gaming Marketplace',
     description:
       'A platform for buying and selling eGaming accounts. Users can post account listings with images and videos, authenticate securely, and handle payments seamlessly.',
     stack: ['MERN', 'Node.js', 'Express', 'MongoDB', 'React', 'CSS'],
     sourceCode: 'https://github.com/yourusername/egaming-marketplace',
     livePreview: 'https://yourprojectlive.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+    image: 'gamway.png',
   },
+  // {
+  //   name: 'Truck Fuel Tracker',
+  //   description:
+  //     'A Flutter app for managing truck fuel usage and delivery expenses. Features include expense logging, fuel tracking, report generation, and export to Excel/PDF.',
+  //   stack: ['Flutter', 'Dart', 'Hive', 'Sqflite', 'Material 3'],
+  //   sourceCode: 'https://github.com/yourusername/truck-fuel-tracker',
+  //   livePreview: 'https://play.google.com/store/apps/details?id=truckfueltracker',
+  //   image: 'cleanfolio.png',
+  // },
+  // {
+  //   name: 'ECG Detector System',
+  //   description:
+  //     'Real-time ECG monitoring system using ESP32-S and AD8232 sensor. Captures heart signals, processes them, and displays ECG graphs on mobile and web dashboards.',
+  //   stack: ['ESP32', 'Arduino', 'Flutter', 'Python', 'Bluetooth BLE'],
+  //   sourceCode: 'https://github.com/yourusername/ecg-detector',
+  //   livePreview: 'https://yourprojectlive.com/ecg',
+  // },
   {
-    name: 'Truck Fuel Tracker',
+    name: 'Vision Assist – Smart Shopping App',
     description:
-      'A Flutter app for managing truck fuel usage and delivery expenses. Features include expense logging, fuel tracking, report generation, and export to Excel/PDF.',
-    stack: ['Flutter', 'Dart', 'Hive', 'Sqflite', 'Material 3'],
-    sourceCode: 'https://github.com/yourusername/truck-fuel-tracker',
-    livePreview: 'https://play.google.com/store/apps/details?id=truckfueltracker',
-    image: 'cleanfolio.png',
-  },
-  {
-    name: 'ECG Detector System',
-    description:
-      'Real-time ECG monitoring system using ESP32-S and AD8232 sensor. Captures heart signals, processes them, and displays ECG graphs on mobile and web dashboards.',
-    stack: ['ESP32', 'Arduino', 'Flutter', 'Python', 'Bluetooth BLE'],
-    sourceCode: 'https://github.com/yourusername/ecg-detector',
-    livePreview: 'https://yourprojectlive.com/ecg',
+      'Mobile application to assist visually impaired users by identifying currency, products, and navigating stores safely using audio guidance.',
+    stack: ['Flutter','Python','AI', 'Accessibility'],
+    sourceCode: 'https://github.com/yourusername/vision-assist',
+    livePreview: 'https://youtu.be/demo-video-link', // 👁️ demo/video is OK
+    image: `EyeC.png`,
   },
   {
     name: 'Lizard Breeding Tracker',
     description:
-      'A cross-platform mobile app to manage lizard breeding, track breeding cycles, and store health logs. Integrated secure authentication and intuitive UX.',
+      'Built an IoT-based mobile application to monitor and control environmental conditions for lizard breeding habitats. The app displays real-time temperature and humidity data from sensors and allows control of devices such as heating lamps, coolers, humidifiers, and dehumidifiers to maintain optimal conditions.Supports multiple sensor nodes with a simple dashboard for live status monitoring and device control.',
     stack: ['React Native', 'Firebase', 'Redux', 'Node.js'],
     sourceCode: 'https://github.com/yourusername/lizard-breeding-app',
     livePreview: 'https://play.google.com/store/apps/details?id=lizardbreeding',
+    image: 'LizardBreed.png',
   },
 ]
 
